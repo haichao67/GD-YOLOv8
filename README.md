@@ -2,7 +2,7 @@
 This repository contains the code implementation for the experiments described in the paper "Lightweight Rail Surface Defect Detection Algorithm Based on an Improved YOLOv8".
 
 ## Model
-The project files is modified based on the YOLOv8 project. The model configuration file [gd-yolov8.yaml](https://github.com/haichao67/GD-YOLOv8/blob/main/ultralytics/cfg/models/v8/gd-yolov8.yaml) is located in the directory [./ultralytics/cfg/models/v8](https://github.com/haichao67/GD-YOLOv8/tree/main/ultralytics/cfg/models/v8).
+The project files is modified based on the YOLOv8(https://github.com/ultralytics/ultralytics) project. The model configuration file [gd-yolov8.yaml](https://github.com/haichao67/GD-YOLOv8/blob/main/ultralytics/cfg/models/v8/gd-yolov8.yaml) is located in the directory [./ultralytics/cfg/models/v8](https://github.com/haichao67/GD-YOLOv8/tree/main/ultralytics/cfg/models/v8).
 
 ## Recommended Configuration
 - Python: 3.8
