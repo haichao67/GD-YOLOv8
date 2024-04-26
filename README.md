@@ -2,14 +2,14 @@
 This repository contains the code implementation for the experiments described in the paper "Lightweight Rail Surface Defect Detection Algorithm Based on an Improved YOLOv8".
 
 ## Model
-The project files is modified based on the YOLOv8(https://github.com/ultralytics/ultralytics) project. The model configuration file [gd-yolov8.yaml](https://github.com/haichao67/GD-YOLOv8/blob/main/ultralytics/cfg/models/v8/gd-yolov8.yaml) is located in the directory [./ultralytics/cfg/models/v8](https://github.com/haichao67/GD-YOLOv8/tree/main/ultralytics/cfg/models/v8).
+The project files is modified based on the [YOLOv8](https://github.com/ultralytics/ultralytics) project. The model configuration file [gd-yolov8.yaml](https://github.com/haichao67/GD-YOLOv8/blob/main/ultralytics/cfg/models/v8/gd-yolov8.yaml) is located in the directory [./ultralytics/cfg/models/v8](https://github.com/haichao67/GD-YOLOv8/tree/main/ultralytics/cfg/models/v8).
 
-## Recommended Configuration
+### Recommended Configuration
 - Python: 3.8
 - Torch: 1.13.1
 - Torchvision: 0.14.1
 
-## Additional Packages Required
+### Additional Packages Required
 Install packages by yourself if they are not already installed
 Recommended dependencies:
 pip install timm thop efficientnet_pytorch einops grad-cam dill
@@ -29,3 +29,6 @@ We have trained and evaluated GD-YOLOv8 on the RSDDs dataset, which is included 
 
 ## Ablation Experiments
 For the ablation experiments described in the paper, the model weights files are located in the [./weight/ablation](https://github.com/haichao67/GD-YOLOv8/tree/main/weight/ablation) folder.
+
+## Copyright Notice
+Many utility codes of our project are based on the codes from the [ultralytics](https://github.com/ultralytics/ultralytics) and [Gold-YOLO](https://github.com/huawei-noah/Efficient-Computing/tree/master/Detection/Gold-YOLO) repositories.
